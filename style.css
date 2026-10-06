@@ -18,7 +18,7 @@ a { color: inherit; text-decoration: none; }
 .site-header { height: 78px; position: sticky; top: 0; z-index: 10; background: var(--paper); border-bottom: 1px solid rgba(33,30,26,.1); }
 .header-inner { max-width: 1320px; height: 100%; padding: 0 44px; margin: 0 auto; display: flex; align-items: center; justify-content: space-between; gap: 30px; }
 .brand { display: inline-flex; align-items: center; gap: 10px; flex-shrink: 0; }
-.brand-mark { display: grid; place-items: center; width: 39px; height: 39px; color: var(--paper); background: var(--orange); font: 600 19px var(--heading); transform: rotate(-3deg); }
+.brand-mark { display: block; width: 39px; height: 39px; border-radius: 50%; object-fit: cover; }
 .brand-name { display: flex; flex-direction: column; font: 500 17px/1 var(--heading); letter-spacing: .5px; text-transform: uppercase; }
 .brand-name strong { font-weight: 600; }
 .brand-name small { margin-top: 5px; font: 700 7px/1 var(--body); letter-spacing: 1.5px; }
@@ -29,7 +29,7 @@ a { color: inherit; text-decoration: none; }
 .button:hover { background: #a94427; transform: translateY(-2px); }
 .button span { font-size: 16px; }
 .button-small { min-height: 40px; padding: 0 17px; }
-.hero { min-height: min(720px, calc(100svh - 78px)); position: relative; display: flex; align-items: center; overflow: hidden; color: white; background: #29211b url('https://images.unsplash.com/photo-1544025162-d76694265947?auto=format&fit=crop&w=2200&q=85') center 52%/cover no-repeat; }
+.hero { min-height: min(720px, calc(100svh - 78px)); position: relative; display: flex; align-items: center; overflow: hidden; color: white; background: #29211b url('images/facebook/cover-ribs.jpg') center 52%/cover no-repeat; }
 .hero-shade { position: absolute; inset: 0; background: linear-gradient(90deg, rgba(19,17,15,.89) 0%, rgba(23,19,16,.74) 39%, rgba(20,17,15,.16) 100%), linear-gradient(0deg, rgba(15,13,11,.3), transparent 40%); }
 .hero-content { width: 100%; max-width: 1320px; position: relative; z-index: 1; padding: 60px 44px 85px; margin: 0 auto; }
 .eyebrow { display: flex; align-items: center; gap: 10px; margin: 0 0 19px; font-size: 9px; font-weight: 700; letter-spacing: 2px; }
@@ -58,7 +58,7 @@ a { color: inherit; text-decoration: none; }
 .menu-card { min-width: 0; }
 .dish-image { height: 225px; position: relative; background-position: center; background-size: cover; background-color: #c7b9a3; }
 .dish-brisket { background-image: url('https://images.unsplash.com/photo-1544025162-d76694265947?auto=format&fit=crop&w=750&q=80'); }
-.dish-ribs { background-image: url('https://images.unsplash.com/photo-1544025162-d76694265947?auto=format&fit=crop&w=750&q=80'); background-position: 75% 60%; }
+.dish-ribs { background-image: url('images/facebook/cover-ribs.jpg'); background-position: 75% 60%; }
 .dish-pork { background-image: url('https://images.unsplash.com/photo-1529193591184-b1d58069ecdd?auto=format&fit=crop&w=750&q=80'); }
 .dish-wings { background-image: url('https://images.unsplash.com/photo-1527477396000-e27163b481c2?auto=format&fit=crop&w=750&q=80'); }
 .dish-tag { position: absolute; top: 12px; left: 12px; padding: 8px 10px; color: white; background: var(--orange); font-size: 8px; font-weight: 700; letter-spacing: 1px; }
